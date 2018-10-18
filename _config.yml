@@ -1,0 +1,123 @@
+# Site settings
+title: Rosa Paula Cuevas
+twitter_username: rochiecuevas
+name: Rosa Paula Cuevas
+
+# Build settings
+markdown: kramdown
+
+#User specific content
+#Links that will appear in the navbar
+primarylinks:
+ - title: Blog
+   url: http://rochiecuevas.blogspot.com/
+ - title: GitHub
+   url: https://github.com/rochiecuevas
+ - title: StackOverflow
+   url: http://stackoverflow.com/users/10205963/rochie
+ - title: LinkedIn
+   url: www.linkedin.com/in/rosa-paula-cuevas
+
+#Any buzzword skills you want to include
+skills:
+ - Python
+ - R
+ - Sensory evaluation
+ - Rice grain quality
+ - Starch
+
+#Blogfeed is optional - including this will add JS to call the feed and populate blog list
+#blogfeed: 
+
+#Work experience is required
+roles:
+ - title: Scientist
+   start: 2015
+   end: 2018
+   employer: International Rice Research Institute (IRRI)
+   description: IRRI is the global leader in rice science, established in the 1960s, and aims to improve the lives and health of actors in the rice sector through sustainable rice production. I was managed and headed the Sensory Evaluation Laboratory in the Grain Quality and Nutrition Centre. I was involved finding new insights from data covering metabolomics, routine grain quality assays, rheometry, and sensory evaluation through data analytics and visualisation. Working with economists and anthropologists, I developed the "gastronomic systems research framework". I communicated these findings to various scientific and non-technical stakeholders through presentations, publications, and media appearances.
+ - title: Consultant
+   start: 2014
+   end: 2015
+   employer: International Rice Research Institute (IRRI)
+   description: I was involved in all aspects of developing sensory profiles of a diverse collection of rice varieties at IRRI.
+ - title: Lecturer
+   start: 2014
+   end: 2014
+   employer: Ateneo de Manila University (AdMU)
+   description: AdMU is a premier educational institution run by Jesuits. I taught the course "Biotechnology for Everyone", an appreciations course for biotechnology, designed for non-Biology majors.
+ - title: Postdoctoral Fellow
+   start: 2010
+   end: 2014
+   employer: International Rice Research Institute (IRRI)
+   description: I established the Sensory Evaluation Team at the Grain Quality and Nutrition Centre, a trained team of panelists who generated sensory profiles. Working closely with plant breeders, I was involved in developing varieties with high yield and premium quality attributes. I handled data generation and statistical analyses of starch structure datasets.
+ - title: Professional Service Staff
+   start: 2008
+   end: 2010
+   employer: International Rice Research Institute (IRRI)
+   description: I developed databases and work packages instrumental in the full-cost recovery program of the Quality Evaluation Services component of the Grain Quality and Nutrition Centre.  
+ - title: Researcher
+   start: 2004
+   end: 2005
+   employer: International Rice Research Institute (IRRI)
+   description: I commissioned various wet chemistry laboratory instruments. I generated preliminary data on starch structures using capillary electrophoresis, size-exclusion chromatography; and on starch functional properties through rheometry and differential scanning calorimetry.    
+ - title: Quality Assurance Supervisor
+   start: 2003
+   end: 2004
+   employer: Antonina Industrial Corporation (AIC)
+   description: AIC is a leading third-party manufacturer of powdered beverages, whose clients include Nestle Philippines and Mead Johnson. Working closely with Human Resources, Production, and Engineering teams, I was able to reduce incidents of environmental hygiene non-compliances and consumer complaints; improve product quality monitoring; and reduce production waste. 
+ - title: Researcher
+   start: 2002
+   end: 2003
+   employer: International Rice Research Institute (IRRI)
+   description: Working with plant breeders and molecular biologists, I generated genotypic data for two populations of rice varieties used to screen for the putative loci of the low-tillering gene(s).   
+
+#Education is required
+education:
+ - level: Certificate
+   date: 2019
+   subject: Data Analytics and Visualisation
+   school: University of California, Berkeley Extension
+ - level: Doctor of Philosophy
+   date: 2009
+   subject: Agricultural Science
+   school: University of Queensland
+ - level: Bachelor of Science
+   date: 2002
+   subject: Biology
+   school: University of the Philippines Los Banos  
+
+#This section is optional (as is the image link below)
+# coursera:
+#    profileurl: https://www.coursera.org/user/i/c6362b4056f755a04bef6a791a62102b
+#    courses:
+#     - title: Functional Programming Principles in Scala
+#       link: https://www.coursera.org/course/progfun
+#       optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/progfun/small-icon.hover.png
+#       date: September 16, 2013
+#     - title: Algorithms Design and Analysis, Part 1
+#       link: https://www.coursera.org/course/progfun
+#       optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/algo/small-icon.hover.png
+#       date: April 28, 2014
+
+#List of interesting Github repo/projects to include - optional
+github:
+ - rochiecuevas/WeatherPy
+ - rochiecuevas/Pymaceuticals
+ - rochiecuevas/Pyber
+ - rochiecuevas/Heroes_of_Pymoli
+
+#Stackoverflow flair is optional
+# stackoverflow:
+#    profileurl: 
+
+#Mobile apps section is optional
+# apps:
+#  - name: 
+#    platform: 
+#    url: 
+#    description: 
+
+#An additional info freetext section is optional at the bottom of the page - can be text or HTML
+#additionalinfo: |
+   
