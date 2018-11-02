@@ -1,2 +1,2 @@
 # rochiecuevas.github.io
-site in progress...
+site's html is found in the master branch's `docs` folder.
