@@ -9,7 +9,7 @@
 <!-- Link the main.css stylesheet -->
  <link href="css/main2.css" rel="stylesheet">
         
-    <title>projects</title>
+    <title>accommodations in SF</title>
        
 </head>
 <body>
@@ -32,7 +32,173 @@
          </div>   
 </div>
 
-<!-- Share Accommodations -->
+<!-- Trends in Accommodations -->
+<h3><b>Trends in accommodation prices in San Francisco</b></h3>
+<p><b>Co-authors:</b> Grace, Janel, Anson, Rosa</p>
+
+<img src = "https://lh3.googleusercontent.com/UQbqswz8Rgb3N19ohwESYGYrEkT7biM1DogUbhZgmVgp7pHiCOGm0vnom4DH8
+h0tZYpCkiu5ZLiRZs-Gr01ttEFg9hpbXc7BEAhCr926LZJHw39CStMzt0X8fAIQRqSMWPa-pZpr2ECX31PCdbPzyv21eE7jkSWXk3MfqlH51
+d3VI-aUjUi6KcdoUmz7xsbtmBZBBn1C3PHbiH7vE4GH1RcMeN8DBpjld__BlHiICilqzBSMZDKg9b4JBUxyJizNw1VEFO_zKV3zV2pu2WUdq
+J0KgYqCgn0SKd-M5OPvGp0YeXLRJnHyst7amD_5eaBK8cyfksBkQYbUcN_2KBArPWlPvyfJPQ35TW3goHzAokQNPTSaOE7J70dWdVZZXGJD2p
+aT4lRJwBwVQHuE6smB9zSgy7EJ3HGlhI5sVDiDWzd0x6GPtN0BjUAm903S2V4GB8IaogfR69Zf-EXZhf7MgOsx-mMCmtdfArpqSh2J13zB20_
+6FDvluBZyGBqFbtKkZgBUGuk-BMS2d1c95rCyKJR73E4W0RFKe3YHcYc134n9Jzp-BzXQhi_Lyx_yIFxxaJdYrORlcdRHLJbHtwL4ZEAB-3Fa3
+Lggj8q-4BCQAC7dGq8RC_mkfi2eeRKsW_74YuUXWT0mBVPwLrLHTstOMfYgRdZidKdwShNiLyxCJsNEPj4rMKLQ8QXV-EJ9gDAoKXdpsNqRF3n
+wbv-5WLk=w800-h600-no" alt = "SF" width = "80%">
+
+<p>San Francisco is <a href = "https://www.businessinsider.com/most-visited-us-cities-2017-12?r=UK&IR=T">
+  one of the most visited cities in the USA</a>. It attracts about 
+  <a href = "https://www.sftravel.com/article/san-francisco-travel-reports-record-breaking-year-tourism">25 
+  million visitors</a>, with tourism being its biggest industry. With many visitors streaming in, residents have 
+  started renting out their spaces for 
+  <a href =  "https://businessportal.sfgov.org/start/starter-kits/short-term-rental">short durations</a> 
+  for extra income and use <a href = "https://en.wikipedia.org/wiki/Peer-to-peer_property_rental">
+  peer-to-peer property rental</a> platforms such as Airbnb to list their available spaces. Therefore, there 
+  are four main types of accommodations considered in this report: owned homes, long-term rental properties, 
+  peer-to-peer short-term rental properties, and hotels. This study explores trends in prices for these 
+  accommodation types in San Francisco. </p>
+
+<p>Data on accommodation rates in the different neighbourhoods of San Francisco are obtained from different 
+  sources: </p>
+  <ul>
+    <li><a href = "https://data.sfgov.org/Housing-and-Buildings/Assessor-Historical-Secured-Property-Tax-
+      Rolls/wv5m-vpq2/data">DataSF</a>, home prices</li>
+    <li><a href = "https://www.zillow.com/san-francisco-ca/home-values/">Zillow</a>, long-term rental rates</li>
+    <li><a href = "https://sfgov.org/scorecards/tourism">SF City Performance Scorecards</a>, hotel rates</li>
+    <li><a href = "http://insideairbnb.com/san-francisco/?neighbourhood=&filterEntireHomes=
+      false&filterHighlyAvailable=false&filterRecentReviews=false&filterMultiListings=false">Inside Airbnb</a>, 
+      short-term rental rates</li>
+  </ul>
+
+<p>The data from the different sources are 
+  <a href = "https://github.com/rochiecuevas/shared_accommodations#data-cleaning">cleaned</a>, 
+  <a href = "https://github.com/rochiecuevas/shared_accommodations#data-processinganalyses">processed</a>, 
+ and <a href = "https://github.com/rochiecuevas/shared_accommodations#data-visualisation">visualised</a> using
+ Python scripts written in different jupyter notebooks. </p>
+
+<h4><b>Home Prices</b></h4>
+<p>Results indicate that the housing price was highest in 2011 and 2016, on average, in the Financial District 
+  while the most affordable neighbourhoods to own a home were Silver Tree and Visitacion Valley.</p> 
+
+<img src = "https://raw.githubusercontent.com/rochiecuevas/shared_accommodations/master/Images/Assessed%20Land%20Value%20(per%20Neigborhood)%20for%202011.svg?sanitize=true"
+  width = "900px">
+
+<br/>
+
+<img src = "https://raw.githubusercontent.com/rochiecuevas/shared_accommodations/master/Images/Assessed%20Land%20Value%20(per%20Neigborhood)%20for%202016.svg?sanitize=true"
+  width = "900px">
+
+<h4><b>Long-term rent</b></h4>
+<p>It is notable that long-term rental rates in the Financial District were not as different as the other 
+  neighbourhoods. Three neighbourhoods popped out having higher long-term rental rates in 2011 and in 2016: 
+  Presidio Heights, Sea Cliff, and St. Francis Wood. Sea Cliff and St. Francis Wood are classified as 
+  <a href = "https://en.wikipedia.org/wiki/San_Francisco_Residence_Parks">"residence parks"</a>. 
+  <a href = "https://www.compass.com/neighborhood-guides/sf/presidio-heights/">Presidio Heights</a> took the 
+  top spot for rental rates; these could be attributed to its proximity to nature despite its closeness to the 
+  hustle and bustle of the City.</p>
+   
+<img src = "https://raw.githubusercontent.com/rochiecuevas/shared_accommodations/master/Images/Yearly%20Rent%20
+Price%20(per%20Neigborhood)%20for%202011.svg?sanitize=true"
+  width = "900px">
+ 
+<br/>
+ 
+<img src = "https://raw.githubusercontent.com/rochiecuevas/shared_accommodations/master/Images/Yearly%20Rent%20
+Price%20(per%20Neigborhood)%20for%202016.svg?sanitize=true"
+  width = "900px">
+
+<p>The trends in price of accommodations increased from 2011 to 2016. However, the rates of increases are 
+  different. The home price increases were more gradual than that for long-term rental rate. From 2012 to 2015, 
+  the increase in long-term rental rates was steep; but the increases seemed to slow down in 2015–2016.</p>  
+
+<div class="row">
+  <div class="column">  
+    <img src="https://raw.githubusercontent.com/rochiecuevas/shared_accommodations/master/Images/Yearly%20Land%20Value%20Change.svg?sanitize=true" alt="Home Price by Yr" width = "500px">
+  </div>  
+  <div class="column">   
+    <img src="https://raw.githubusercontent.com/rochiecuevas/shared_accommodations/master/Images/Yearly%20Rent%20Price%20Change.svg?sanitize=true" alt="LTR by Yr" width = "500px">
+  </div>     
+</div>  
+
+<h4><b>Hotel rates</b></h4>
+<p>Hotel rates also went up between 2005 and 2017. There was a drop in hotel rates between 2008 and 2009, but 
+  this can probably be attributed to the Recession during that time. Since 2009, however, the hotel rates grew 
+  at a rate faster then in 2005–2008. In 2015–2017, the data suggests that the increase in hotel rates is 
+  slowing down.</p>
+
+<img src = "https://raw.githubusercontent.com/rochiecuevas/shared_accommodations/master/Images/hotel_
+timeseries01.svg?sanitize=true"
+  width = "900px">  
+
+  <h4><b>Short-term rent</b></h4>  
+<p>The slowing growth trend for both hotel and long-term rental rates might be an effect of the entry of peer-
+  to-peer short-term rental options. The short-term rental rates appeared to by highest in Presidio and 
+  Presidio Heights, mimicking patterns of long-term rental rates. The rates were lowest in 
+  <a href = "https://en.wikipedia.org/wiki/Crocker-Amazon,_San_Francisco">Crocker Amazon</a> in 2015 
+  and 2016; but by 2017, the rates there have overtaken those of 
+  <a href = "https://en.wikipedia.org/wiki/Excelsior_District,_San_Francisco">Excelsior</a>, 
+  <a href = "https://sftreasureisland.org/living-treasure-island">Treasure Island/Yerba Buena Island</a>, 
+  and Visitacion Valley. Crocker Amazon and Excelsior are described as ethnically diverse residential areas, 
+  with single-family homes. Treasure Island/Yerba Buena Island, on the other hand, feature only rental housing. 
+  In 2018, all short-term rental listings for Treasure Island have been 
+  <a href = "https://www.sfchronicle.com/business/article/SF-short-term-rentals-transformed-as-
+  Airbnb-12617798.php">wiped out</a> because the agency handling rentals does not allow vacation rentals.</p>  
+
+<img src = "https://raw.githubusercontent.com/rochiecuevas/shared_accommodations/master/Images/Airbnb_
+annual_avg.svg?sanitize=true">
+
+<p>In terms of districts, Western Addition and Outside Lands experienced a continuous increase in short-term 
+  rental rates. In contrast, there was a price decrease from 2016 to 2017 in Downtown, in North of Downtown, 
+  and in Southern districts. The number of listings of peer-to-peer short-term rental clearly increased from 
+  2015 to 2017. In 2015 and 2016, Outside Lands had the fewest listings for peer-to-peer short-term property 
+  rental. By 2017, however, the district already had the same number of listings as North of Downtown. On the 
+  other hand, Western Addition had the most number of listings for the three years.</p>
+
+  <div class="row">
+      <div class="column">  
+        <img src="https://raw.githubusercontent.com/rochiecuevas/shared_accommodations/master/Images/Airbnb_annual_avg2.svg?sanitize=true" alt="STR rate" width = "500px">
+      </div>  
+      <div class="column">   
+        <img src="https://raw.githubusercontent.com/rochiecuevas/shared_accommodations/master/Images/Airbnb_district_listings.svg?sanitize=true" alt="STR listing" width = "500px">
+      </div>     
+    </div>
+
+<p>Zooming into the neighbourhood level, it is clear that Mission, South of Market, and Western Addition had 
+  the most number of listings for peer-to-peer short-term rental units across the three years. On the other 
+  hand, Presidio and Treasure Island had fewest listings.</p>
+
+<img src = "https://raw.githubusercontent.com/rochiecuevas/shared_accommodations/master/Images/Airbnb_
+neighbourhood_listings.svg?sanitize=true">
+
+<p>Heatmaps show the progression in the number of short-term rental listings and rates. It is interesting to 
+  note that there were two regions of particularly high rates for short-term rental properties(northern part of 
+  the City and near Twin Peaks); however, the rates spiked for most neighbourhoods in the next two years. The 
+  rates rose faster around the Downtown and North of Downtown areas than around Twin Peaks. On the other hand, 
+  there was only one hotspot for short-term rental listings in 2015. It was concentrated around the central part 
+  of the City; however, the listings quickly spread in the subsequent years, with a second concentration 
+  growing around the Downtown and South of Market areas.</p>
+ 
+  <table>
+      <tr>
+        <th>Year</th>
+        <th>short-term rental rates</th>
+        <th>number of short-term listings</th>
+      </tr>
+      <tr>
+        <td>2015</td>
+        <td><img src = "https://github.com/rochiecuevas/shared_accommodations/blob/master/Images/STR_rates_2015.png?raw=true" class = "icon"></td>
+        <td><img src = "https://github.com/rochiecuevas/shared_accommodations/blob/master/Images/STR_listings_2015.png?raw=true" class = "icon"></td>
+      </tr>
+      <tr>
+        <td>2016</td>
+        <td><img src = "https://github.com/rochiecuevas/shared_accommodations/blob/master/Images/STR_rates_2016.png?raw=true" class = "icon"></td>
+        <td><img src = "https://github.com/rochiecuevas/shared_accommodations/blob/master/Images/STR_listings_2016.png?raw=true" class = "icon"></td>
+      </tr>
+      <tr>
+        <td>2017</td>
+        <td><img src = "https://github.com/rochiecuevas/shared_accommodations/blob/master/Images/STR_rates_2017.png?raw=true" class = "icon"></td>
+        <td><img src = "https://github.com/rochiecuevas/shared_accommodations/blob/master/Images/STR_listings_2017.png?raw=true" class = "icon"></td>
+      </tr>
+    </table>
 
 </body>    
 </html>
