@@ -6,6 +6,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link rel="stylesheet" href="css/font-awesome.min.css">
         
+<!-- Bootstrap script -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
 <!-- Link the main.css stylesheet -->
  <link href="css/main2.css" rel="stylesheet">
         
@@ -14,55 +20,255 @@
 </head>
 <body>
 
-<!-- Navigation -->
-<div class="navbar">
-        <a href="./index.html">Home</a>
-        <a href="./projects.html">Projects</a>
-        <a href="./publications.html">Publications</a>
-        <div class="dropdown">
-                <button class="dropbtn">About
-                  <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="./about.html">About Rochie</a>
-                    <a href="https://github.com/rochiecuevas">GitHub</a>
-                  <a href="https://twitter.com/rochiecuevas">Twitter</a>
-                  <a href="https://www.linkedin.com/in/rosa-paula-cuevas/">LinkedIn</a>
-                </div>
-         </div>   
-</div>
+<!-- Hero -->
+<section id = "hero">
+  <div class = "container">
+    <div class = "row">
+      <div class = "col-md-5">
+        <h3>Hi! I'm Rochie.</h3>
+        <p> I am a food scientist who has entered the wonderful world of data science. I enjoy finding insights from data and communicating these insights with non-technical audiences. I use Python and R to wrangle and to analyse data; and a mix of Matplotlib, HTML, CSS, and JavaScript libraries to visualise the data and breathe life into a database of numbers.</p>
+        <p>Want to see what I'm up to? Then just click on the buttons below.</p>
+
+        <br>
+
+        <a href="#about" class = "btn">About</a>
+        <a href="#publications" class = "btn">Papers</a>
+        <a href="#projects" class = "btn">Projects</a>
+        <a href="#contact" class = "btn">Contact</a>
+
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- About Me -->
-<h3>Hi! I'm Rochie.</h3>
-<p> 
-  I am a data scientist formally trained as a food scientist. I enjoy finding insights from data and communicating these insights with non-technical audiences.
-</p>
+<section id = "about">
+  <div class = "container">
 
-<!-- Post -->
-<h3>Some interesting stuff...</h3>
+    <div class = "row">
+      <div class = "col-md-2">
+        <!-- Buttons -->
+        <ul>
+          <li><a href="#publications" class = "btn">Papers</a></li>
+          <li><a href="#projects" class = "btn">Projects</a></li>
+          <li><a href="#contact" class = "btn">Contact</a></li>
+        </ul>
+      </div>
 
-<table>
-  <tr>
-    <td><b>Rice grain quality book</b>
-      <p>I'm a contributing author to <a href = "https://link.springer.com/book/10.1007%2F978-1-4939-8914-0">"Rice Grain Quality: Methods and Protocols"</a>, 
-        a newly published book featuring non-routine methods to evaluate rice quality and how data science approaches could be used to find new insights about rice quality.</p>
-      <p>If you're interested in how rice, one of the world's most important staples, is evaluated, check out the book!</p>
-    </td>
-    <td><img src = "https://github.com/rochiecuevas/rochiecuevas.github.io/blob/master/images/Rice_Grain_Quality_cover.jpg?raw=true" 
-            alt = "book_cover" height = 200 weight = 200>
-    </td>
-  </tr>
-  <tr>
-    <td><a href = "https://rochiecuevas.github.io/shared_accommodations.html"><b>How much does it cost to stay in SF?</b></a>
-      <p>San Francisco is one of the most visited cities in the world. It's pretty expensive to stay in it too. This study explores the different accommodations rates in the City's neighbourhoods.</p>
-      <p>After this study, I learned that SF's borders go beyond the downtown area and the financial district.</p>
-    </td>
-    <td><img src = "https://github.com/rochiecuevas/shared_accommodations/blob/master/Images/STR_rates_2017.png?raw=true" class = "icon">
-    </td>
-    
-  </tr>
-  
-</table>
+      <div class = "col-md-10">
+        <h2>My Resume</h2>
+        <p><i>This section can be downloaded as a <a href = "./my_resume.pdf">PDF</a>.</i></p>
+        <h4>Technical Skills</h4>
+        <ul>
+          <li><b>Languages:</b> R, Python, SQL, HTML, CSS, JavaScript </li>
+          <li><b>Data Visualisation and Manipulation:</b> pandas, matplotlib, ggplot2, circlize, gridExtra, corrplot</li>     
+          <li><b>Statistical Analysis:</b> scipy, numpy, agricolae, multinomial logistic regression, random forest</li>
+          <li><b>Laboratory:</b> scientific writing, rice chemistry, sensory evaluation, rheometry, texture profile analysis</li>
+        </ul>
+      </div>
+    </div>
 
+    <div class = "row">
+      <div class = "col-md-10 col-md-offset-2">
+        <h4>Education</h4>
+        <p><b>Certificate, Data Analytics and Visualisation.</b> <a href = "https://extension.berkeley.edu/">University of California, Berkeley Extension</a>. Expected: MARCH 2019</p>
+        <p><b>Ph.D., Agricultural Science.</b> <a href = "https://qaafi.uq.edu.au/centre-for-nutrition-and-food-sciences">University of Queensland</a>.</p>
+        <ul>
+            <li><b>Doctoral Thesis:</b> Starch microstructure and functional properties in waxy rice (<i>Oryza sativa</i> L.)</li>
+            <li><b>Fields:</b> Starch chemistry, Rice science</li>
+        </ul>
+        <p><b>B.Sc., Biology.</b> <a href = "https://ibs.uplb.edu.ph/">University of the Philippines Los Baños</a>.</p>
+        <ul>
+            <li><b>Honours:</b> <i>Magna cum laude</i></li>
+            <li><b>Awards:</b> Bank of the Philippine Islands Science Award, UPLB College of Arts and Sciences Outstanding Student Award</li>
+            <li><b>Thesis:</b> Production and utilisation of crude tylosin from high-yielding <i>Streptomyces fradiae</i> NRRL 2702 Mutant No. 93 as therapeutic agent in broilers</li>
+            <li><b>Major:</b> Microbiology</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class = "row">
+      <div class = "col-md-10 col-md-offset-2">
+        <h4>Professional Experience</h4>
+        <p><a href = "http://irri.org/"><b>International Rice Research Institute</b></a> (2008–2018)</p>
+        <p><i>Scientist</i> (2015–2018)</p>
+        <ul style = "list-style-type:disc;">
+          <li>Headed and managed the Sensory Evaluation Laboratory.</li>
+          <li>Co-authored 6 peer-reviewed journal articles, 7 book chapters on grain quality, genetics, chemistry, economics, and market research.</li>
+          <li>Generated insights from rice quality and consumer data that could impact the international rice market through multinomial logistic regression, random forest) and visualisation.</li>
+          <li>Generated project funding to understand food choice behaviours in India and in the Philippines.</li>
+        </ul>
+        <p><i>Consultant</i> (2014–2015)</p>
+        <ul style = "list-style-type:disc;">
+          <li>Generated descriptive sensory profiles for 130 rice samples from a diverse collection.</li>
+          <li>Enhanced market linkages of Philippine heirloom rice varieties via collaborations with chefs.</li>
+        </ul>
+        <p><i>Post-doctoral Fellow</i> (2010–2014)</p>
+        <ul style = "list-style-type:disc;">
+          <li>Established the Grain Quality and Nutrition Centre’s (GQNC) sensory evaluation team.</li>
+          <li>Co-authored 3 scientific articles, 1 book chapter on genetics, starch chemistry, and food quality.</li>
+        </ul>
+        <p><i>Professional Service Staff</i> (2008–2010)</p>
+        <ul style = "list-style-type:disc;">
+          <li>Co-authored 3 scientific articles on associating genetics, starch chemistry, and food quality.</li>
+          <li>Enhanced the GQNC’s full-cost recovery program for client services through developing databases (MS Access) and organising services into work packages.</li>
+      </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr>
+
+<!-- Publications -->
+<section id = "publications">
+  <div class = "container">
+    <div class = "row">
+      <div class = "col-md-2">
+        <ul>
+          <!-- Buttons -->
+          <li><a href="#about" class = "btn">About</a></li>
+          <li><a href="#projects" class = "btn">Projects</a></li>
+          <li><a href="#contact" class = "btn">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class = "col-md-10">
+        <h2>Publications List</h2>
+        <p><i>The list can be downloaded as a</i> <a href="./my_publications.pdf"><i>PDF</i></a>.</p>
+        <ul>
+            <li>Anacleto, R., S. Badoni, S. Parween, V. M. Butardo, Jr., G. Misra, <b>R. P. Cuevas</b>, M. Kuhlmann, T. P. Trinidad, A. C. Mallillin, C. Acuin, A. R. Bird, M. K. Morell, N. Sreenivasulu. 2018. Integrating a genome‐wide association study with a large‐scale transcriptome analysis to predict genetic regions influencing the glycaemic index and texture in rice. <a href = "https://doi.org/10.1111/pbi.13051">Plant Biotechnology Journal</a>. </li><br>
+            <li>Lapis, J. R., <b>R. P. Cuevas</b>, N. Sreenivasulu, L. Molina. 2018. Measurement of head rice recovery in rice. 
+              In: <a href = "https://link.springer.com/book/10.1007%2F978-1-4939-8914-0">Rice Grain Quality: Methods and Protocols</a>. Ed: N. Sreenivasulu.
+              New York: Springer. pp. 89–98.</li><br/>
+            <li>Santos, M. V., <b>R. P. Cuevas</b>, N. Sreenivasulu, L. Molina. 2018. Measurement of rice grain dimensions 
+              and chalkiness, and rice grain elongation using image analysis. In:
+              <a href = "https://link.springer.com/book/10.1007%2F978-1-4939-8914-0">Rice Grain Quality: Methods and Protocols</a>. Ed: N. Sreenivasulu.
+              New York: Springer. pp. 99–108.</li><br/>
+            <li>Jimenez, R., L. Molina, I. Zarei, J. R. Lapis, R. Chavez, <b>R. P. Cuevas</b>, N. Sreenivasulu. 2018. Method development of near-infrared spectroscopy
+              approaches for nondestructive and rapid estimation of total protein in brown rice flour. In:
+              <a href = "https://link.springer.com/book/10.1007%2F978-1-4939-8914-0">Rice Grain Quality: Methods and Protocols</a>. Ed: N. Sreenivasulu.
+              New York: Springer. pp. 109–136.</li><br/>  
+            <li>Molina, L., R. Jimenez, N. Sreenivasulu, <b>R. P. Cuevas</b>. 2018. Multi-dimensional cooking quality classification using
+              routine quality evaluation methods. In:
+              <a href = "https://link.springer.com/book/10.1007%2F978-1-4939-8914-0">Rice Grain Quality: Methods and Protocols</a>. Ed: N. Sreenivasulu.
+              New York: Springer. pp. 137–150.</li><br/> 
+            <li><b>Cuevas, R. P.</b>, P. S. Takhar, N. Sreenivasulu. 2018. Characterization of mechanical texture attributes of cooked milled rice
+              by Texture Profile Analyses and unraveling viscoelastic properties through rheometry. In:
+              <a href = "https://link.springer.com/book/10.1007%2F978-1-4939-8914-0">Rice Grain Quality: Methods and Protocols</a>. Ed: N. Sreenivasulu.
+              New York: Springer. pp. 151–168.</li><br/>  
+            <li>Molina, L., J. R. Lapis, N. Sreenivasulu, <b>R. P. Cuevas</b>. 2018. Determination of macronutrient and micronutrient content in rice grains
+              using Inductively Coupled Plasma-Optical Emission Spectrometry (ICP-OES). In:
+              <a href = "https://link.springer.com/book/10.1007%2F978-1-4939-8914-0">Rice Grain Quality: Methods and Protocols</a>. Ed: N. Sreenivasulu.
+              New York: Springer. pp. 253–264.</li><br/> 
+            <li>Molina, L., J. R. Lapis, N. Sreenivasulu, <b>R. P. Cuevas</b>. 2018. Determination of cadmium concentration in milled and brown rice grains using
+              graphite furnace atomic absorption spectrometry. In:
+              <a href = "https://link.springer.com/book/10.1007%2F978-1-4939-8914-0">Rice Grain Quality: Methods and Protocols</a>. Ed: N. Sreenivasulu.
+              New York: Springer. pp. 265–276.</li><br/> 
+            <li><b>Cuevas, R. P.</b>, C. J. Domingo, N. Sreenivasulu. 2018. Multivariate-based classification of predicting cooking quality ideotypes in indica germplasm. 
+              <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6179975/">Rice 11: 56</a>.</li><br/>
+            <li>Misra, G., S. Badoni, C. J. Domingo, <b>R. P. Cuevas</b>, C. Llorente, E. G. N. Mbanjo, N. Sreenivasulu. 2018. Deciphering the genetic architecture of cooked rice texture. 
+              <a href="https://www.frontiersin.org/articles/10.3389/fpls.2018.01405/full">Frontiers in Plant Science 9: 1405</a>.</li><br/>
+            <li><b>Cuevas, R. P.</b>, A. de Guia, M. Demont. 2017. Developing a framework of gastronomic systems research to unravel drivers of food choice.  
+              <a href="http://www.sciencedirect.com/science/article/pii/S1878450X17300410">International Journal of Gastronomy and Food Science 9: 88–99</a>.</li><br/>
+            <li><b>Cuevas, R. P.</b>, V. O. Pede, J. McKinley, O. Velarde, M. Demont. 2016. Rice grain quality and consumer preferences: A case study of two rural towns in the Philippines. 
+              <a href="https://doi.org/10.1371/journal.pone.0150345">PLOS One 11(3): e0150345</a>.</li><br/>
+            <li>Custodio, M. C., M. Demont, A. G. Laborte, C. Diaz, J. Ynion, R. Islam, <b>R. P. Cuevas</b>, N. C. Paguirigan. 2016. Rapid Value Chain Assessment and Rice Preferences of Consumers, Farmers, and Other Rice Value Chain Actors in Bangladesh. 
+              TRB Report. Los Baños, Philippines: International Rice Research Institute.</li><br/>
+            <li><b>Cuevas, R. P.</b>, M. Demont. 2015. Rice: An international staple. SansRival 5 (3): 12–13.</li><br/>
+            <li>Anacleto, R., <b>R. P. Cuevas</b>, R. Jimenez, C. Llorente, E. Nissila, N. Sreenivasulu. 2015. Prospects of breeding high-quality rice using post-genomic tools. 
+              <a href="https://link.springer.com/article/10.1007/s00122-015-2537-6">Theoretical and Applied Genetics 128 (8): 1449–1466</a>.</li><br/>
+            <li>Sreenivasulu, N., V. M. Butardo, G. Misra, <b>R. P. Cuevas</b>, R. Anacleto, P. B. Kavi Kishor. 2015. Designing climate-resilient rice with ideal grain quality suited for high-temperature stress. 
+              <a href="https://doi.org/10.1093/jxb/eru544">Journal of Experimental Botany. 66 (7): 1737–1748</a>.</li><br/>
+            <li>Butardo, V. M., V. D. Daygon, M. L. Colgrave, P. M. Campbell, A. P. Resurreccion, <b>R. P. Cuevas</b>, S. A. Jobling, I. Tetlow, S. Rahman, M. K. Morell, M. A. Fitzgerald. 2012. Biomolecular analysis of starch and starch granule proteins in the high-amylose rice mutant Goami 2. 
+              <a href="https://doi.org/10.1021/jf303205p">Journal of Agricultural and Food Chemistry. 60 (46): 11576–11585</a>.</li><br/>
+            <li>Cuevas, R. P.</b>, M. A. Fitzgerald. 2012. Genetic Diversity of Rice Grain Quality. In: Genetic Diversity in Plants. Rijeka: InTech. pp. 285–310.</li><br/>
+            <li>Boualaphanh, C., M. Calingacion, <b>R. P. Cuevas</b>, D. Jothityangkoon, J. Sanitchon, M. A. Fitzgerald. 2011. Yield and quality of traditional and improved Lao varieties of rice. 
+              <a href="http://www.scienceasia.org/2011.37.n2/scias37_89.pdf">ScienceAsia 37: 89–97</a>.</li><br/>
+            <li>Tran, N. A., V. D. Daygon, A. P. Resurreccion, <b>R. P. Cuevas</b>, H. M. Corpuz, M. A. Fitzgerald. 2011. A single nucleotide polymorphism in the <i>Waxy</i> gene explains a significant component of gel consistency. 
+              <a href="https://doi.org/10.1007/s00122-011-1604-x">Theoretical and Applied Genetics 123(4): 519–525</a>.</li><br/>   
+            <li><b>Cuevas, R. P.</b>, V. D. Daygon, M. K. Morell, R. G. Gilbert, M. A. Fitzgerald. 2010. Using chain-length distributions to diagnose genetic diversity in starch biosynthesis. 
+              <a href="http://www.sciencedirect.com/science/article/pii/S0144861710000901">Carbohydrate Polymers 81(1): 120–127</a>.</li><br/>
+            <li><b>Cuevas, R. P.</b>, J. Peate, M. A. Fitzgerald, R. G. Gilbert. 2010. Structural differences between hot-water-soluble and hot-water-insoluble fractions of starch in waxy rice (<i>Oryza sativa</i> L.). 
+              <a href="https://www.sciencedirect.com/science/article/pii/S0144861710001475">Carbohydrate Polymers 81: 524–532</a>.</li><br/>
+            <li><b>Cuevas, R. P.</b>, V. D. Daygon, H. M. Corpuz, R. Reinke, D. L. E. Waters, M. A. Fitzgerald. 2010. Melting the secrets of gelatinization temperature. 
+              <a href="http://dx.doi.org/10.1071/FP09258">Functional Plant Biology 37(5): 439–447</a>.</li><br/>  
+            <li><b>Cuevas, R. P.</b>, M. A. Fitzgerald. 2007. Linking starch structure to rice cooking quality. IREC Farmers’ Newsletter 177: 16–17.</li><br/>
+            <li>Fukuta, Y., E. Araki, L. Ebron, <b>R. P. Cuevas</b>, D. Mercado-Escueta, G. S. Khush, J. E. Sheehy, H. Tsunematsu, H. Kato. 2006. Identification of low tiller gene in two rice varieties, 
+              Aikawa 1 and Shuho of rice (<i>Oryza sativa</i> L.). JIRCAS Working Rep. 46: 86– 92.</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr>
+
+<!-- Projects -->
+<section id = "projects">
+  <div class = "container">
+    <div class = "row">
+      <div class = "col-md-2">
+        <!-- Buttons -->
+        <ul>
+          <li><a href="#about" class = "btn">About</a></li>
+          <li><a href="#publications" class = "btn">Papers</a></li>
+          <li><a href="#contact" class = "btn">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class = "col-md-10">
+        <h2>Projects</h2>
+
+        <table>
+          <tr>
+            <td>
+              <img src = "https://github.com/rochiecuevas/Belly_Button_Biodiversity/blob/master/Screenshots/header.png?raw=True" alt = "Biodiversity" style = "width: 74%"><br>
+              <b><a href = "https://still-brook-99773.herokuapp.com/">Belly Button Biodiversity</a></b>
+            </td>
+
+            <td>
+              <img src = "https://github.com/rochiecuevas/UFO_Sightings/blob/master/Screenshots/index-screenshot.png?raw=True" alt = "Alien" style = "width: 74%"><br>
+              <b><a href = "https://rochiecuevas.github.io/UFO_Sightings/">Aliens Among Us</a></b>
+            </td>
+
+            <td>
+              <img src = "https://github.com/rochiecuevas/WeatherPy/blob/master/Images/city_positions_20181014.png?raw=True" alt = "Cities" style = "width: 74%"><br> 
+              <b><a href="https://rochiecuevas.github.io/WeatherPy/">WeatherPy</a></b> 
+            </td>
+          </tr>
+          <tr></tr>
+          <tr></tr>
+        </table>
+
+        <br>
+
+        <p>Photo attributions: </p>
+          <ul>
+            <li><a href = "https://www.shutterstock.com/image-illustration/alien-3d-illustration-521619994">alien; 3d illustration by adike</a></li>
+            <li><a href = "https://www.gettyimages.com/detail/photo/microbiological-culture-royalty-free-image/496449131">Microbiological Culture by nicolas_</a></li>
+          </ul>
+      </div> 
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<footer id = "contact">
+  <div class = "container">
+    <div class = "row">
+      <div class = "col-md-12">
+        <h4>Contact</h4>
+        <p>
+          <a href = "https://www.linkedin.com/in/rosa-paula-cuevas/"> <i class="fab fa-linkedin fa-2x" style = "color: white;"></i></a>
+          <a href = "https://github.com/rochiecuevas"> <i class="fab fa-github fa-2x" style = "color: white;"></i></a>
+          <a href="mailto:rochiecuevas@gmail.com" class="mail"> <i class="glyphicon glyphicon-envelope fa-2x" style = "color: white;"></i></a>
+          <a href="https://twitter.com/rochiecuevas"> <i class="fab fa-twitter fa-2x" style = "color: white;"></i></a>
+        </p> 
+      </div>
+    </div>
+  </div>
+</footer>
 
 </body>    
 </html>

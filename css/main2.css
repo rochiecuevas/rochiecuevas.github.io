@@ -1,208 +1,50 @@
+ul {
+  list-style-type: none;
+}
+
+footer {
+  background-color: dimgrey;
+  color: white;
+}
+
 body {
-    background-color: #f2f2f2;
-    font-family: "Lato"; /* OPTIONAL: Google Fonts - base font */
-    font-weight: 300;
-    font-size: 20px;
-    color: #555;
-  
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
-  }
-  
-  /* Titles */
-  h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway"; /* OPTIONAL: Google Fonts - title font */
-    font-weight: 300;
-    color: #333;
-  }
-  
-  /* Paragraph & Typographic */
-  p {
-    line-height: 20px;
-    margin-bottom: 20px;
-  }
-  
-  .centered {
-      text-align: center;
-  }
-  
-  /* Links */
-  a {
-    color: #1CBCAD;
-    text-decoration: none;
-    word-wrap: break-word;
-  
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
-  }
-  
-  a:hover,
-  a:focus {
-    color: #a13222;
-    text-decoration: none;
-    outline: 0;
-  }
-  
-  a:before,
-  a:after {
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
-  }
-  
-   hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-  }
-  
-  /* Navbar container */
-  .navbar {
-      overflow: hidden;
-      background-color: #555;
-      font-family: "Lato";
-  }
-  
-  /* Links inside the navbar */
-  .navbar a {
-      float: left;
-      font-size: 20px;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-  }
-  
-  /* The dropdown container */
-  .dropdown {
-      float: left;
-      overflow: hidden;
-  }
-  
-  /* Dropdown button */
-  .dropdown .dropbtn {
-      font-size: 20px;    
-      border: none;
-      outline: none;
-      color: white;
-      padding: 14px 16px;
-      background-color: inherit;
-      font-family: inherit;
-      margin: 0;
-  }
-  
-  /* Add an aqua background color to navbar links on hover */
-  .navbar a:hover, .dropdown:hover .dropbtn {
-      background-color: #1CBCAD;
-  }
-  
-  /* Dropdown content (hidden by default) */
-  .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #f9f9f9;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-      float: none;
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-      text-align: left;
-  }
-  
-  /* Add a grey background color to dropdown links on hover */
-  .dropdown-content a:hover {
-      background-color: #ddd;
-  }
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-      display: block;
-  }
-
-
-/* Responsive column cards */  
-  * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "Lato";
-  }
-  
-  /* Float two columns side by side */
-  .column {
-    float: left;
-    width: 50%;
-    padding: 0 10px;
-  }
-  
-  /* Remove extra left and right margins, due to padding */
-  .row {margin: 0 -5px;}
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive columns */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-  }
-  
-  /* Style the counter cards */
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
-    text-align: center;
-    background-color: #f6f6f6;
-  }
-
-  /* Image centred */
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  background-color: whitesmoke;
 }
 
-/* Tables */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 100%;
-  border: 1px solid #ddd;
+#hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/profile_pic.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+
+  /* text style */
+  color: whitesmoke;
 }
 
-th, td {
-  text-align: left;
-  padding: 16px;
+#hero h3 {
+  font-size: 3em;
+  margin-top: 0.7;
+  margin-bottom: 0.5em;
 }
 
-tr:nth-child(even) {
-  background-color: #f2f2f2
+#hero .btn {
+  display: inline-block;
+  width: 90px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: black;
+
+  /* text */
+  color: lightgrey;
+  text-decoration: none;
 }
 
-img.icon {
-  width: 60%;
-  height: auto;
+#hero .btn:hover {
+  border:3px solid lightgrey;
+  background-color: lightgrey;
+  color: black;
 }
