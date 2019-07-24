@@ -3,7 +3,7 @@ ul {
 }
 
 footer {
-  background-color: dimgrey;
+  background-color: grey;
   color: white;
 }
 
@@ -53,17 +53,6 @@ img {
   border-radius: 10px;
 }
 
-.card {
-  border-radius: 10px;
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
 .btn {
   display: inline-block;
   width: 90px;
@@ -79,4 +68,31 @@ img {
   border:3px solid lightgrey;
   background-color: lightgrey;
   color: black;
+}
+
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 50px 0;
+  width: 100%;
+}
+
+td, th {
+  padding: 8px;
+  border-bottom: 1px solid black;
+}
+
+tr:hover {
+  background-color:#A9A9A9;
+  color: white;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: grey;
+  color: white;
 }
